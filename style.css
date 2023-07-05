@@ -64,4 +64,5 @@ body {
   display: flex;
   justify-content: flex-start;
   gap: 12px;
+  list-style-type: none;
 }
