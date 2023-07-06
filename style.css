@@ -71,7 +71,6 @@ body {
 
 .second-container {
   display: grid;
-  /* background-color: #dfe1e6; */
   padding: 114px 24px;
   gap: 88px;
 }
