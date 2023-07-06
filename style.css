@@ -9,6 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   height: 718px;
+  background-color: #dfe1e6;
 }
 
 .header-container {
@@ -36,6 +37,7 @@ body {
   padding: 114px 24px;
   gap: 12px;
   border-bottom-left-radius: 90px;
+  background-color: #fff;
 }
 
 .intro-text {
@@ -69,7 +71,7 @@ body {
 
 .second-container {
   display: grid;
-  background-color: #dfe1e6;
+  /* background-color: #dfe1e6; */
   padding: 114px 24px;
   gap: 88px;
 }
@@ -174,6 +176,7 @@ button:active {
   border-top-right-radius: 90px;
   display: flex;
   flex-direction: column;
+  background-color: white;
   align-items: flex-start;
   gap: 24px;
 }
