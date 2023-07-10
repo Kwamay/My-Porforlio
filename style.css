@@ -133,9 +133,8 @@ body {
 }
 
 .tech {
+  display: block;
   list-style-type: none;
-  display: flex;
-  align-items: flex-start;
   color: #6070ff;
   gap: 8px;
 }
@@ -232,4 +231,69 @@ button:active {
 
 .drop-down {
   margin-right: 34px;
+}
+
+.contact-page {
+  background-color: #6070ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 90px;
+  padding: 103px 24px 45px;
+}
+
+.contact-me {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.contact-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.form-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #172b4d;
+  border-radius: 8px;
+  padding: 15px 36px 15px 16px;
+  margin-bottom: 20px;
+  border: 1px solid #cfd8dc;
+  width: 327px;
+  height: 48px;
+}
+
+textarea {
+  padding: 15px 36px 15px 16px;
+  border-radius: 8px;
+  width: 327px;
+  height: 127px;
+  margin-bottom: 22px;
+}
+
+.contact-button {
+  padding: 12px 16px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  align-self: flex-start;
+  color: #6070ff;
+  background-color: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
 }
