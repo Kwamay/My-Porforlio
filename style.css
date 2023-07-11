@@ -299,3 +299,7 @@ textarea {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
+
+.contact-wrapper {
+  background-color: #fff;
+}
