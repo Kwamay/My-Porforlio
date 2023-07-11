@@ -266,48 +266,93 @@
             </div>
           </li>
           <ul class="lang-container">
-          <li class="lang-type">
-            <img
-              src="images/mobile-images/js.png"
-              width="48"
-              height="48"
-              alt="java"
-              class="js-script"
-            /><label>JavaScript</label>
+            <li class="lang-type">
+              <img
+                src="images/mobile-images/js.png"
+                width="48"
+                height="48"
+                alt="java"
+                class="js-script"
+              /><label>JavaScript</label>
+            </li>
+            <li class="lang-type">
+              <img
+                src="images/mobile-images/html.png"
+                width="48"
+                height="48"
+                alt="html"
+                class="js-script"
+              /><label>HTML</label>
+            </li>
+            <li class="lang-type">
+              <img
+                src="images/mobile-images/css.png"
+                width="48"
+                height="48"
+                alt="css"
+                class="js-script"
+              /><label>CSS</label>
+            </li>
+          </ul>
+          <li class="frame-lang">
+            <span class="language-text">Framework </span>
+            <div class="drop-down">
+              <img src="images/icon_image/arrowright.png" />
+            </div>
           </li>
-          <li class="lang-type">
-            <img
-              src="images/mobile-images/html.png"
-              width="48"
-              height="48"
-              alt="html"
-              class="js-script"
-            /><label>HTML</label>
+          <li class="frame-lang">
+            <span class="language-text">Skills </span>
+            <div class="drop-down">
+              <img src="images/icon_image/arrowright.png" />
+            </div>
           </li>
-          <li class="lang-type">
-            <img
-              src="images/mobile-images/css.png"
-              width="48"
-              height="48"
-              alt="css"
-              class="js-script"
-            /><label>CSS</label>
-          </li>
-        </ul>
-        <li class="frame-lang">
-          <span class="language-text">Framework </span>
-          <div class="drop-down">
-            <img src="images/icon_image/arrowright.png" />
-          </div>
-        </li>
-        <li class="frame-lang">
-          <span class="language-text">Skills </span>
-          <div class="drop-down">
-            <img src="images/icon_image/arrowright.png" />
-          </div>
-        </li>
         </ul>
       </div>
+    </section>
+    <section class="contact-page">
+      <h2 class="contact-me">Contact me</h2>
+      <p class="contact-text">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it!
+      </p>
+      <form
+        id="myForm"
+        action="https://formspree.io/f/xeqwyoye"
+        class="form-items"
+        method="post"
+      >
+        <label for="name">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="User name"
+            maxlength="30"
+            required
+          />
+        </label>
+        <label for="mail">
+          <input
+            type="email"
+            id="mail"
+            name="email"
+            placeholder="User email Address"
+            required
+          />
+        </label>
+        <textarea
+          name="user_msg"
+          id="message"
+          cols="30"
+          rows="10"
+          maxlength="500"
+          name="message"
+          placeholder="Write your message here"
+          required
+          ></textarea>
+        <button type="submit" class="contact-button">Get in Touch</button>
+      </form>
     </section>
   </body>
 </html>
