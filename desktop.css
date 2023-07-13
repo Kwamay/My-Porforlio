@@ -57,6 +57,11 @@
     padding: 0;
   }
 
+  .page-change {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .desktop-pic {
     width: 100%;
   }
@@ -73,7 +78,7 @@
     width: 50%;
     display: flex;
     align-items: center;
-    padding: 24px 24px 24px 22px; 
+    padding: 24px 24px 24px 22px;
   }
 
   .img-content {
