@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="desktop.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins"
       rel="stylesheet"
@@ -15,14 +16,31 @@
     <header class="header">
       <nav class="header-container">
         <a href="#" class="logo">My logo</a>
-        <img src="images/icon_image/Union.png" alt="Union-btn" class="union" />
+        <img
+          src="images/icon_image/Union.png"
+          alt="Union-btn"
+          class="union mobile"
+        />
+        <div class="desktop">
+          <ul class="header-content">
+            <li class="head-words">
+              <a class="links" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="head-words">
+              <a class="links" href="#about">About</a>
+            </li>
+            <li class="head-words">
+              <a class="links" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
-    <section class="first-container">
+    <section id="portfolio" class="first-container">
       <h1 class="intro-text">
         I'm Kwamay. <br />
-        Glad to see <br />you!
+        Glad to see you!
       </h1>
       <p class="intro-msg">
         I’m a software developer! I can help you build a product , feature or
@@ -84,42 +102,65 @@
       </ul>
     </section>
     <section class="second-container">
+      <!-- First Project -->
+
       <div class="second-page">
-        <img
-          src="./images/mobile-images/pic_on_screen.png"
-          width="295"
-          height="220"
-          alt="image"
-          class="pics"
-        />
-        <div class="img-content">
-          <h3 class="project-title">Tonic</h3>
-          <ul class="sub-title">
-            <li class="sub-title-topic">CANOPY</li>
-            <li class="sub-title-other-words">Back End Dev</li>
-            <li class="sub-title-other-words">2015</li>
-          </ul>
-          <p class="project-content">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="tech">
-            <li class="tech-type">HTML</li>
-            <li class="tech-type">CSS</li>
-            <li class="tech-type">JavaScript</li>
-          </ul>
-          <button class="project-button">See project</button>
+        <div class="img-section">
+          <div class="images">
+            <img
+              src="./images/mobile-images/pic_on_screen.png"
+              alt="image"
+              class="pics mobile"
+            />
+            <img
+              class="desktop desktop-pic"
+              src="images/dektop-images/nature.png"
+              alt="Nature"
+            />
+          </div>
+        </div>
+        <div class="img-content-section">
+          <div class="img-content">
+            <h3 class="project-title">Tonic</h3>
+            <ul class="sub-title">
+              <li class="sub-title-topic">CANOPY</li>
+              <li class="sub-title-other-words">Back End Dev</li>
+              <li class="sub-title-other-words">2015</li>
+            </ul>
+            <p class="project-content">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="tech">
+              <li class="tech-type">HTML</li>
+              <li class="tech-type">CSS</li>
+              <li class="tech-type">JavaScript</li>
+            </ul>
+            <button class="project-button">See project</button>
+          </div>
         </div>
       </div>
-      <div class="second-page">
-        <img
-          src="./images/mobile-images/Avail.png"
-          width="295"
-          height="220"
-          alt="image"
-          class="pics"
-        />
-        <div class="img-content">
+      <!-- Second Project -->
+      <div class="second-page page-change">
+        <div class="img-content-section">
+          <div class="images">
+            <img
+              src="./images/mobile-images/Avail.png"
+              width="295"
+              height="220"
+              alt="image"
+              class="pics mobile"
+            />
+            <img
+              class="desktop desktop-pic"
+              src="images/dektop-images/art.png"
+              width="544"
+              height="448"
+              alt="Art"
+            />
+          </div>
+        </div>
+        <div class="img-content mobile">
           <h3 class="project-title">Multi-Post <br />Stories</h3>
           <ul class="sub-title">
             <li class="sub-title-topic">CANOPY</li>
@@ -137,16 +178,52 @@
           </ul>
           <button class="project-button">See project</button>
         </div>
+        <div class="img-section">
+        <div class="img-content desktop">
+          <h3 class="project-title">Multi-Post Stories</h3>
+          <ul class="sub-title">
+            <li class="sub-title-topic">FACEBOOK</li>
+            <li class="sub-title-other-words">Full Stack Dev</li>
+            <li class="sub-title-other-words">2015</li>
+          </ul>
+          <p class="project-content">
+            Experimental content creation feature that allows users to add to an
+            existing story over the course of a day without spamming their
+            friends.
+          </p>
+          <div class="desktop">
+            <ul class="tech">
+              <li class="tech-type">HTML</li>
+              <li class="tech-type">Ruby on rails</li>
+              <li class="tech-type">css</li>
+              <li class="tech-type">javaScript</li>
+            </ul>
+          </div>
+          <button class="project-button">See project</button>
+        </div>
       </div>
+      </div>
+      <!-- Third Project -->
       <div class="second-page">
+        <div class="img-content-section">
+        <div class="images">        
         <img
           src="./images/mobile-images/gym.png"
           width="295"
           height="220"
           alt="image"
-          class="pics"
+          class="pics mobile"
         />
-        <div class="img-content">
+        <img
+          class="desktop desktop-pic"
+          src="images/dektop-images/display-pic.png"
+          width="544"
+          height="448"
+          alt="Art"
+        />
+        </div>
+        </div>
+        <div class="img-content mobile">
           <h3 class="project-title">Tonic</h3>
           <ul class="sub-title">
             <li class="sub-title-topic">CANOPY</li>
@@ -164,16 +241,51 @@
           </ul>
           <button class="project-button">See project</button>
         </div>
+        <div class="img-section">
+        <div class="img-content desktop">
+          <h3 class="project-title">Facebook 360</h3>
+          <ul class="sub-title">
+            <li class="sub-title-topic">FACEBOOK</li>
+            <li class="sub-title-other-words">Full Stack Dev</li>
+            <li class="sub-title-other-words">2015</li>
+          </ul>
+          <p class="project-content">
+            Exploring the future of media in Facebook's first Virtual Reality
+            app; a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+          <div class="desktop">
+            <ul class="tech">
+              <li class="tech-type">HTML</li>
+              <li class="tech-type">Ruby on rails</li>
+              <li class="tech-type">css</li>
+              <li class="tech-type">javaScript</li>
+            </ul>
+          </div>
+          <button class="project-button">See project</button>
+        </div>
       </div>
-      <div class="second-page">
+      </div>
+      <!-- Forth Project -->
+      <div class="second-page page-change">
+        <div class="img-content-section">
+          <div class="images">                 
         <img
           src="./images/mobile-images/art.png"
           width="295"
           height="220"
           alt="image"
-          class="pics"
+          class="pics mobile"
         />
-        <div class="img-content">
+        <img
+          class="desktop desktop-pic"
+          src="images/dektop-images/avail.png"
+          width="544"
+          height="448"
+          alt="Avail"
+        />
+          </div>
+        </div>
+        <div class="img-content mobile">
           <h3 class="project-title">Multi-Post <br />Stories</h3>
           <ul class="sub-title">
             <li class="sub-title-topic">CANOPY</li>
@@ -191,9 +303,33 @@
           </ul>
           <button class="project-button">See project</button>
         </div>
+        <div class="img-section">
+        <div class="img-content desktop">
+          <h3 class="project-title">Uber Navigation</h3>
+          <ul class="sub-title">
+            <li class="sub-title-topic">Uber</li>
+            <li class="sub-title-other-words">Lead Developer</li>
+            <li class="sub-title-other-words">2018</li>
+          </ul>
+          <p class="project-content">
+            A smart assistant to make driving more safe, efficient, and fun by
+            unlocking your most expensive computer: your car.
+          </p>
+          <div class="desktop">
+            <ul class="tech">
+              <li class="tech-type">HTML</li>
+              <li class="tech-type">Ruby on rails</li>
+              <li class="tech-type">css</li>
+              <li class="tech-type">javaScript</li>
+            </ul>
+          </div>
+          <button class="project-button">See project</button>
+        </div>
+      </div>
       </div>
     </section>
-    <section class="about-page">
+    <!-- About Page -->
+    <section id="about" class="about-page">
       <div class="about-content">
         <h2 class="intro-text">About Myself</h2>
         <p class="intro-msg">
@@ -273,7 +409,7 @@
                 height="48"
                 alt="java"
                 class="js-script"
-              /><label>JavaScript</label>
+              /><label class="lang-text">JavaScript</label>
             </li>
             <li class="lang-type">
               <img
@@ -282,7 +418,7 @@
                 height="48"
                 alt="html"
                 class="js-script"
-              /><label>HTML</label>
+              /><label class="lang-text">HTML</label>
             </li>
             <li class="lang-type">
               <img
@@ -291,7 +427,7 @@
                 height="48"
                 alt="css"
                 class="js-script"
-              /><label>CSS</label>
+              /><label class="lang-text">CSS</label>
             </li>
           </ul>
           <li class="frame-lang">
@@ -309,7 +445,7 @@
         </ul>
       </div>
     </section>
-    <section class="contact-wrapper">
+    <section id="contact" class="contact-wrapper">
       <div class="contact-page">
         <h2 class="contact-me">Contact me</h2>
         <p class="contact-text">

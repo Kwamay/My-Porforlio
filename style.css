@@ -7,8 +7,11 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", sans-serif;
-  height: 718px;
+  max-width: 767px;
+  min-width: 365px;
   background-color: #dfe1e6;
 }
 
@@ -18,7 +21,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
-  padding: 58px 32px 0 24px;
+  padding: 28px 32px 0 24px;
 }
 
 .logo {
@@ -32,9 +35,11 @@ body {
   display: flex;
   background-image: url(./images/mobile-images/mobile-background.png);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
   flex-direction: column;
   align-items: flex-start;
-  padding: 114px 24px;
+  padding: 128px 24px 128px;
   gap: 12px;
   border-bottom-left-radius: 90px;
   background-color: #fff;
@@ -86,8 +91,13 @@ body {
 }
 
 .pics {
-  align-self: center;
   margin-bottom: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.images {
+  width: 100%;
 }
 
 .img-content {
@@ -133,10 +143,12 @@ body {
 }
 
 .tech {
-  display: block;
+  display: flex;
+  flex-direction: row;
   list-style-type: none;
   color: #6070ff;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .tech-type {
@@ -144,8 +156,8 @@ body {
   padding: 4px 12px;
   border-radius: 8px;
   margin-top: 8px;
-  float: left;
   margin-left: 8px;
+  white-space: nowrap;
 }
 
 .project-button {
@@ -237,8 +249,14 @@ button:active {
 
 .contact-page {
   background-color: #6070ff;
+  background-image: url(images/mobile-images/contact-mob-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 149px;
+  background-position-y: 12px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   border-top-left-radius: 90px;
   padding: 103px 24px 45px;
@@ -258,7 +276,7 @@ button:active {
   line-height: 28px;
   color: #ebebff;
   text-align: center;
-  margin-bottom: 52px;
+  margin: 12px 24px 52px;
 }
 
 .form-items {
@@ -302,4 +320,14 @@ textarea {
 
 .contact-wrapper {
   background-color: #fff;
+  background-image: url(images/mobile-images/contact-mob-bg.png);
+  background-repeat: no-repeat;
+}
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
 }
