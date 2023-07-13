@@ -48,21 +48,13 @@
   }
 
   .second-page {
-    display: grid;
-    grid-template: "item1 item2";
-    grid-auto-columns: minmax(0, 1fr);
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
     margin: 0 80px;
-  }
-
-  .item-1 {
-    grid-area: item1;
-  }
-
-  .item-2 {
-    grid-area: item2;
-    padding-left: 1rem;
+    padding: 0;
   }
 
   .desktop-pic {
@@ -72,19 +64,20 @@
   .img-section {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     width: 50%;
+    padding: 24px 22px 24px 24px;
   }
 
   .img-content-section {
     width: 50%;
     display: flex;
     align-items: center;
+    padding: 24px 24px 24px 22px; 
   }
 
   .img-content {
-    padding-top: 48px;
-    padding-right: 46px;
+    padding: 0;
   }
 
   .project-title {
