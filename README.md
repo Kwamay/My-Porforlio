@@ -118,6 +118,12 @@ To run tests, run the following command:
 - Twitter: [@Kwamay3](https://twitter.com/Kwamay3)
 - LinkedIn: [Kwamay Adu](https://linkedin.com/in/кωαмαу-adu-2b396321a)
 
+👤 **Author2**
+
+- GitHub: [Al Amin Khan Shakil](https://github.com/Al-Amin-Khan-Shakil)
+- Twitter: [Al Amin Khan Shakil](https://https://twitter.com/AlAminKhan85004)
+- LinkedIn: [Al Amin Khan Shakil](https://https://www.linkedin.com/in/al-amin-khan-shakil-5a3b29252/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
