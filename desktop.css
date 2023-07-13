@@ -69,6 +69,19 @@
     width: 100%;
   }
 
+  .img-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+  }
+
+  .img-content-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
   .img-content {
     padding-top: 48px;
     padding-right: 46px;

@@ -35,6 +35,8 @@ body {
   display: flex;
   background-image: url(./images/mobile-images/mobile-background.png);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
   flex-direction: column;
   align-items: flex-start;
   padding: 128px 24px 128px;
@@ -89,8 +91,14 @@ body {
 }
 
 .pics {
-  align-self: center;
+  /* align-self: center; */
   margin-bottom: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.images {
+  width: 100%;
 }
 
 .img-content {
