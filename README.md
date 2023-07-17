@@ -14,6 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+     - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -30,9 +31,9 @@
 - [📝 License](#license)
 
 
-# 📖 [Hello Microverse Project] <a name="about-project"></a>
+# 📖 [My Porfolio] <a name="about-project"></a>
 
-> A portfolio I built with html and css.
+> This is my first-ever portfolio project with Microverse using GitHub professional flow. The objective here is to make it responsive to mobile and desktop screens using the grid and flexbox layout.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -58,13 +59,21 @@
 
 ### Key Features <a name="key-features"></a>
 
-
-Added index.html file
-Added style.css file
+- Use the Figma design for the project😊👌
+- Use the semantics elements💯
+- Use the linter for fixing errors .🚀
+- Use the grid and flexbox layout to place the items 😃👍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://kwamay.github.io/My-Porforlio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -85,7 +94,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 Run this command:
-git clone https://github.com/Kwamay/Hello_Microverse_Project.git
+git clone https://github.com/Kwamay/My-Porfolio.git
 
 
 
@@ -100,7 +109,8 @@ Initially install node package files by running the command below:
 
 To run the project, execute the following command:
 
- Open index.html using live server extension.
+- npm run build (It will create a production-ready file)
+- npm start (It will run the server on your machine)
 
   ### Run tests
 
@@ -132,8 +142,9 @@ To run tests, run the following command:
 
 
 
-- [ ] Add header
-- [ ] Add body
+- [ ] Add Javascript.
+- [ ] Add more styling pages.
+- [ ] Add more interactive buttons and sections.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
