@@ -3,11 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="desktop.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/desktop.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
 
     <title>My Porfolio</title>
@@ -15,14 +23,18 @@
   <body>
     <header class="header">
       <nav class="header-container">
-        <a href="#" class="logo">My logo</a>
+        <a href="#" class="logo">GVCC</a>
         <img
+        id="nav-button"
           src="images/icon_image/Union.png"
           alt="Union-btn"
           class="union mobile"
         />
         <div class="desktop">
-          <ul class="header-content">
+          <ul class="header-content pop-content">
+            <li class="head-words close mobile">
+              <span class="material-symbols-outlined"> close </span>
+            </li>
             <li class="head-words">
               <a class="links" href="#portfolio">Portfolio</a>
             </li>
@@ -492,5 +504,6 @@
         </form>
       </div>
     </section>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
