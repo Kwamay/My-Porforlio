@@ -5,7 +5,8 @@ const projectDetails = [
       when an unknown printer took a galley of type and scrambled it 1960s.
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> <br/>
       Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer
-      took a galley of type and scrambled it 1960s.`,
+      took a galley of type and scrambled it 1960s.Lorem Ipsum han printer took a galley of type
+      and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
       featureImage: './images/dektop-images/nature.png',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap'],
       linkToLiveSection: 'https://kwamay.github.io/My-Porforlio/',
@@ -19,7 +20,8 @@ const projectDetails = [
       when an unknown printer took a galley of type and scrambled it 1960s.
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> <br/>
       Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer
-      took a galley of type and scrambled it 1960s.`,
+      took a galley of type and scrambled it 1960s.Lorem Ipsum han printer took a galley of type
+      and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
       featureImage: './images/dektop-images/art.png',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap'],
       linkToLiveSection: 'https://kwamay.github.io/My-Porforlio/',
@@ -28,12 +30,13 @@ const projectDetails = [
     },
   
     {
-      description:`Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
       when an unknown printer took a galley of type and scrambled it 1960s.
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> <br/>
       Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer
-      took a galley of type and scrambled it 1960s.`,
+      took a galley of type and scrambled it 1960s.Lorem Ipsum han printer took a galley of type
+      and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
       featureImage: './images/dektop-images/display-pic.png',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap'],
       linkToLiveSection: 'https://kwamay.github.io/My-Porforlio/',
@@ -42,12 +45,13 @@ const projectDetails = [
     },
   
     {
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      description:`Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
       when an unknown printer took a galley of type and scrambled it 1960s.
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> <br/>
       Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer
-      took a galley of type and scrambled it 1960s.`,
+      took a galley of type and scrambled it 1960s.Lorem Ipsum han printer took a galley of type
+      and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
       featureImage: './images/dektop-images/avail.png',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap'],
       linkToLiveSection: 'https://kwamay.github.io/My-Porforlio/',
