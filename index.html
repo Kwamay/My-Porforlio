@@ -116,22 +116,44 @@
     <section class="second-container">
       <!-- First Project -->
       <div class="second-page">
-        <div class="img-section">
-          <div class="images">
-            <img
-              src="./images/mobile-images/pic_on_screen.png"
-              alt="image"
-              class="pics mobile"
-            />
-            <img
-              class="desktop desktop-pic"
-              src="images/dektop-images/nature.png"
-              alt="Nature"
-            />
-          </div>
-        </div>
         <div class="img-content-section">
-          <div class="img-content">
+        <div class="images">        
+        <img
+          src="./images/mobile-images/pic_on_screen.png"
+          width="295"
+          height="220"
+          alt="image"
+          class="pics mobile"
+        />
+        <img
+          class="desktop desktop-pic"
+          src="images/dektop-images/nature.png"
+          width="544"
+          height="448"
+          alt="Art"
+        />
+        </div>
+        </div>
+        <div class="img-content mobile">
+          <h3 class="project-title">Tonic</h3>
+          <ul class="sub-title">
+            <li class="sub-title-topic">CANOPY</li>
+            <li class="sub-title-other-words">Back End Dev</li>
+            <li class="sub-title-other-words">2015</li>
+          </ul>
+          <p class="project-content">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="tech">
+            <li class="tech-type">HTML</li>
+            <li class="tech-type">CSS</li>
+            <li class="tech-type">JavaScript</li>
+          </ul>
+          <button class="project-button see-project-mobile">See project</button>
+        </div>
+        <div class="img-section">
+          <div class="img-content desktop">
             <h3 class="project-title">Tonic</h3>
             <ul class="sub-title">
               <li class="sub-title-topic">CANOPY</li>
@@ -142,12 +164,14 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <ul class="tech">
-              <li class="tech-type">HTML</li>
-              <li class="tech-type">CSS</li>
-              <li class="tech-type">JavaScript</li>
-            </ul>
-            <button class="project-button">See project</button>
+            <div class="desktop">
+              <ul class="tech">
+                <li class="tech-type">HTML</li>
+                <li class="tech-type">css</li>
+                <li class="tech-type">javaScript</li>
+              </ul>
+            </div>
+            <button class="project-button see-project-desktop">See project</button>
           </div>
         </div>
       </div>
@@ -187,7 +211,7 @@
             <li class="tech-type">CSS</li>
             <li class="tech-type">JavaScript</li>
           </ul>
-          <button class="project-button">See project</button>
+          <button class="project-button see-project-mobile">See project</button>
         </div>
         <div class="img-section">
         <div class="img-content desktop">
@@ -210,7 +234,7 @@
               <li class="tech-type">javaScript</li>
             </ul>
           </div>
-          <button class="project-button">See project</button>
+          <button class="project-button see-project-desktop">See project</button>
         </div>
       </div>
       </div>
@@ -250,7 +274,7 @@
             <li class="tech-type">CSS</li>
             <li class="tech-type">JavaScript</li>
           </ul>
-          <button class="project-button">See project</button>
+          <button class="project-button see-project-mobile">See project</button>
         </div>
         <div class="img-section">
         <div class="img-content desktop">
@@ -272,7 +296,7 @@
               <li class="tech-type">javaScript</li>
             </ul>
           </div>
-          <button class="project-button">See project</button>
+          <button class="project-button see-project-desktop">See project</button>
         </div>
       </div>
       </div>
@@ -312,7 +336,7 @@
             <li class="tech-type">CSS</li>
             <li class="tech-type">JavaScript</li>
           </ul>
-          <button class="project-button">See project</button>
+          <button class="project-button see-project-mobile">See project</button>
         </div>
         <div class="img-section">
         <div class="img-content desktop">
@@ -334,7 +358,7 @@
               <li class="tech-type">javaScript</li>
             </ul>
           </div>
-          <button class="project-button">See project</button>
+          <button class="project-button see-project-desktop">See project</button>
         </div>
       </div>
       </div>
@@ -350,8 +374,8 @@
           <nav class="pop-up-list">
             <ul class="pop-items">
               <li class="pc-pop-canopy">CANOPY</li>
-              <li class="pc-pop-back-end">BACK END DEV</li>
-              <li class="pc-pop-year">2015</li>
+              <li class="pc-pop-back-year">BACK END DEV</li>
+              <li class="pc-pop-back-year">2015</li>
             </ul>
           </nav>
           <img src="" alt="nature" class="pop-up-img" />
@@ -360,7 +384,7 @@
             <div class="pop-up-tech">
               <ul class="pop-tech"></ul>
               <div class="pop-up-button">
-                <button class="pop-button">
+                <button class="see-live">
                   See live
                   <img
                     src="images/icon_image/live-icon.png"
@@ -368,7 +392,7 @@
                     height="16"
                   />
                 </button>
-                <button class="pop-button-source">
+                <button class="see-source">
                   See source
                   <img
                     src="images/icon_image/github-source.png"
