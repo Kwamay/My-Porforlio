@@ -15,6 +15,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
      - [🚀 Live Demo](#live-demo)
+     - [🚀 Project Presentation](#project-presentation)
   - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -69,9 +70,15 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://kwamay.github.io/My-Porforlio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Project Presentation <a name="project-presentation"></a>
+
+> Feel free to watch the project presentation at [loom](https://www.loom.com/share/dc26fa0d392a4d3cb47db84aec23717b)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,6 +140,12 @@ To run tests, run the following command:
 - GitHub: [Al Amin Khan Shakil](https://github.com/Al-Amin-Khan-Shakil)
 - Twitter: [Al Amin Khan Shakil](https://https://twitter.com/AlAminKhan85004)
 - LinkedIn: [Al Amin Khan Shakil](https://https://www.linkedin.com/in/al-amin-khan-shakil-5a3b29252/)
+
+👤 **Author3**
+
+- GitHub: [@Izebiafe](https://github.com/Izebiafe)
+- Twitter: [@Izebiafe](https://twitter.com/Afimia_Fidelis)
+- LinkedIn: [Afimia Fidelis](https://linkedin.com/in/Afimia-fidelis)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -24,6 +24,9 @@
     justify-content: center;
     list-style-type: none;
     gap: 32px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
   }
 
   .links {

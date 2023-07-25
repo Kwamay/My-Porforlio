@@ -24,11 +24,32 @@ body {
   padding: 28px 32px 0 24px;
 }
 
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.close {
+  align-self: flex-end;
+  color: white;
+  font-size: 40px;
+}
+
+.close > .material-symbols-outlined {
+  font-size: 40px;
+}
+
 .logo {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   text-decoration: none;
+  color: #6070ff;
 }
 
 .first-container {
@@ -356,10 +377,50 @@ textarea {
   background-repeat: no-repeat;
 }
 
+.head-words {
+  list-style-type: none;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+}
+
 .mobile {
   display: block;
 }
 
 .desktop {
   display: none;
+}
+
+.desktop.show {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 15px;
+  position: fixed;
+  background-color: rgb(96, 112, 255, 0.8);
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  color: #fff;
+  z-index: 2;
+}
+
+.project-details-modal {
+  display: none;
+}
+
+.project-details-modal.show {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: rgb(96, 112, 255, 0.2);
+  backdrop-filter: blur(5px);
+  min-height: 100%;
+  top: 0;
+  left: 0;
 }

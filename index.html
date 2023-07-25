@@ -3,11 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="desktop.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/desktop.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
 
     <title>My Porfolio</title>
@@ -15,14 +23,18 @@
   <body>
     <header class="header">
       <nav class="header-container">
-        <a href="#" class="logo">My logo</a>
+        <a href="#" class="logo">GVCC</a>
         <img
+        id="nav-button"
           src="images/icon_image/Union.png"
           alt="Union-btn"
           class="union mobile"
         />
         <div class="desktop">
           <ul class="header-content">
+            <li class="head-words close mobile">
+              <span class="material-symbols-outlined"> close </span>
+            </li>
             <li class="head-words">
               <a class="links" href="#portfolio">Portfolio</a>
             </li>
@@ -103,7 +115,6 @@
     </section>
     <section class="second-container">
       <!-- First Project -->
-
       <div class="second-page">
         <div class="img-section">
           <div class="images">
@@ -327,6 +338,49 @@
         </div>
       </div>
       </div>
+      <!--Popup Project Details -->
+      <div class="project-details-modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="close-modal">
+              <span class="material-symbols-outlined"> close </span>
+            </div>
+            <div class="pop-up-topic"></div>
+          </div>
+          <nav class="pop-up-list">
+            <ul class="pop-items">
+              <li class="pc-pop-canopy">CANOPY</li>
+              <li class="pc-pop-back-end">BACK END DEV</li>
+              <li class="pc-pop-year">2015</li>
+            </ul>
+          </nav>
+          <img src="" alt="nature" class="pop-up-img" />
+          <div class="pop-up-details-container">
+            <p class="pop-up-text"></p>
+            <div class="pop-up-tech">
+              <ul class="pop-tech"></ul>
+              <div class="pop-up-button">
+                <button class="pop-button">
+                  See live
+                  <img
+                    src="images/icon_image/live-icon.png"
+                    width="16"
+                    height="16"
+                  />
+                </button>
+                <button class="pop-button-source">
+                  See source
+                  <img
+                    src="images/icon_image/github-source.png"
+                    width="16"
+                    height="16"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- About Page -->
     <section id="about" class="about-page">
@@ -492,5 +546,7 @@
         </form>
       </div>
     </section>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/desktop.js"></script>
   </body>
 </html>
