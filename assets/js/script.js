@@ -64,7 +64,6 @@ const mobileDetails = [
     mobileName: 'Multi-Post-Stories',
   },
 ];
-
 const clickListener = (index) => {
   // before show, set the modal details
   const mobileTopic = document.querySelector('.pop-mobile-topic');
@@ -77,10 +76,10 @@ const clickListener = (index) => {
   text.innerHTML = mobileDetails[index].mobileDescription;
 
   // see live
-  const seeLive = document.querySelector('.see-live');
+  const seeLive = document.querySelector('.see-live-mob');
   seeLive.addEventListener('click', () => window.open(mobileDetails[index].mobileLinkToLiveSection, '_blank'));
 
-  const seeSource = document.querySelector('.see-source');
+  const seeSource = document.querySelector('.see-source-mob');
   seeSource.addEventListener('click', () => window.open(mobileDetails[index].mobileLinkToSource, '_blank'));
 
   // technologies
@@ -89,16 +88,18 @@ const clickListener = (index) => {
   mobileDetails[index].mobileTechnologies.forEach((td) => {
     const list = document.createElement('li');
     list.textContent = td;
-    list.classList = 'pop-mobile-type';
+    list.classList = 'pop-up-tech-type';
     techParent.appendChild(list);
   });
   // open modal
   document.querySelector('.mobile-project-modal').classList.toggle('show');
 };
 
-const mobileButtons = document.querySelectorAll('.see-project-mobile');
-mobileButtons.forEach((mobileButton, index) => {
-  mobileButton.addEventListener('click', () => clickProjectListener(index));
+const mobileSeeProjectButtons = document.querySelectorAll(
+  '.see-project-mobile',
+);
+mobileSeeProjectButtons.forEach((mobileSeeProjectButton, index) => {
+  mobileSeeProjectButton.addEventListener('click', () => clickListener(index));
 });
 
 // close modal
