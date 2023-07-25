@@ -511,7 +511,7 @@ textarea {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 8px;  
+  gap: 8px;
 }
 
 .pop-mobile-tech {

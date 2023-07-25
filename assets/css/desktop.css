@@ -172,11 +172,11 @@
     justify-content: center;
     width: 569px;
   }
-  
+
   .project-details-modal {
     display: none;
   }
-  
+
   .project-details-modal.show {
     display: flex;
     align-items: center;
@@ -189,7 +189,7 @@
     left: 0;
     z-index: 2;
   }
-  
+
   .modal-content {
     background-color: #fff;
     border-radius: 10px;
@@ -197,23 +197,23 @@
     height: 85vh;
     margin: 2% 20%;
     overflow-y: scroll;
-    padding: 20px;  
+    padding: 20px;
   }
-  
+
   .modal-header {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     padding-bottom: 8px;
   }
-  
+
   .pop-up-topic {
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
     color: #091e42;
   }
-  
+
   .pop-items {
     display: flex;
     flex-direction: row;
@@ -221,8 +221,8 @@
     align-items: center;
     gap: 24px;
     padding-bottom: 28px;
-  }  
-  
+  }
+
   .pc-pop-canopy {
     list-style-type: none;
     color: #344563;
@@ -230,14 +230,14 @@
     font-weight: 500;
     line-height: 20px;
   }
-  
+
   .pc-pop-back-year {
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
     color: #7a869a;
   }
-  
+
   .pop-up-image {
     display: flex;
     align-items: center;
@@ -248,7 +248,7 @@
   .pop-up-img {
     width: 100%;
   }
-  
+
   .pop-up-details-container {
     display: flex;
     flex-direction: row;
@@ -257,7 +257,7 @@
     flex-wrap: nowrap;
     margin-top: 28px;
   }
-  
+
   .pop-up-text {
     flex: 1;
     font-weight: 400;
@@ -265,7 +265,7 @@
     overflow: hidden;
     line-height: 25px;
   }
-  
+
   .pop-tech {
     display: flex;
     flex-direction: row;
@@ -275,7 +275,7 @@
     padding-bottom: 24px;
     border-bottom: 1px solid #ebecf0;
   }
-  
+
   .pop-up-tech {
     width: 28%;
     display: flex;
@@ -286,7 +286,7 @@
     color: #6070ff;
     position: relative;
   }
-  
+
   .pop-up-tech-type {
     color: #6070ff;
     font-size: 10px;
@@ -297,14 +297,14 @@
     background-color: #ebebff;
     border-radius: 8px;
   }
-  
+
   .pop-up-button {
     display: flex;
     width: 100%;
     gap: 5px;
     margin-top: 2rem;
   }
-  
+
   .see-live {
     display: flex;
     align-items: center;
@@ -319,9 +319,9 @@
     border: 1px solid #6070ff;
     border-radius: 6px;
     font-family: "Poppins", sans-serif;
-    white-space: nowrap; 
+    white-space: nowrap;
   }
-  
+
   .see-source {
     display: flex;
     align-items: center;
@@ -338,7 +338,6 @@
     font-family: "Poppins", sans-serif;
     white-space: nowrap;
   }
-  
 
   .contact-button {
     align-self: center;
@@ -351,6 +350,4 @@
   .desktop {
     display: block;
   }
-
- 
 }
