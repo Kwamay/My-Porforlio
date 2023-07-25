@@ -141,6 +141,12 @@ To run tests, run the following command:
 - Twitter: [Al Amin Khan Shakil](https://https://twitter.com/AlAminKhan85004)
 - LinkedIn: [Al Amin Khan Shakil](https://https://www.linkedin.com/in/al-amin-khan-shakil-5a3b29252/)
 
+👤 **Author3**
+
+- GitHub: [@Izebiafe](https://github.com/Izebiafe)
+- Twitter: [@Izebiafe](https://twitter.com/Afimia_Fidelis)
+- LinkedIn: [Afimia Fidelis](https://linkedin.com/in/Afimia-fidelis)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
