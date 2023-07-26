@@ -15,6 +15,15 @@ linkButtons.forEach((linkButton) => {
   });
 });
 
+// Reading from localStorage
+const object = localStorage.getItem('formDetails');
+const formName = document.getElementById('name');
+formName.value = JSON.parse(object).name;
+const email = document.getElementById('mail');
+email.value = JSON.parse(object).email;
+const message = document.getElementById('message');
+message.value = JSON.parse(object).message;
+
 const mobileDetails = [
   {
     mobileDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -130,4 +139,3 @@ form.addEventListener('submit', (event) => {
     errorMessage.style.display = 'block';
   }
 });
-
