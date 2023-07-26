@@ -16,13 +16,13 @@ linkButtons.forEach((linkButton) => {
 });
 
 // Reading from localStorage
-const object = localStorage.getItem('formDetails');
-const formName = document.getElementById('name');
-formName.value = JSON.parse(object).name;
-const email = document.getElementById('mail');
-email.value = JSON.parse(object).email;
-const message = document.getElementById('message');
-message.value = JSON.parse(object).message;
+// const object = localStorage.getItem('formDetails');
+// const formName = document.getElementById('name');
+// formName.value = JSON.parse(object).name;
+// const email = document.getElementById('mail');
+// email.value = JSON.parse(object).email;
+// const message = document.getElementById('message');
+// message.value = JSON.parse(object).message;
 
 const mobileDetails = [
   {
