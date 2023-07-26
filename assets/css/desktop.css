@@ -39,7 +39,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 288px 260px 255px;
-    background-image: url(images/dektop-images/desktop-background.png);
+    background-image: url(/images/dektop-images/desktop-background.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -163,7 +163,7 @@
   }
 
   .contact-page {
-    background-image: url(images/dektop-images/contact-background.png);
+    background-image: url(/images/dektop-images/contact-background.png);
   }
 
   .contact-text {

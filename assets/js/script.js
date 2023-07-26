@@ -105,3 +105,28 @@ mobileSeeProjectButtons.forEach((mobileSeeProjectButton, index) => {
 // close modal
 const closeMobileModal = document.querySelector('.close-mobile-modal');
 closeMobileModal.addEventListener('click', () => document.querySelector('.mobile-project-modal').classList.toggle('show'));
+
+// Form Validation
+const form = document.getElementById('myForm');
+const emailInput = document.getElementById('mail');
+const errorMessage = document.getElementById('errorMessage');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent form submission
+
+  const emailValue = emailInput.value;
+  if (emailValue.toLowerCase() === emailValue) {
+    // Email is already in lowercase, form submission is allowed
+    const object = {
+      name: document.getElementById('name').value,
+      email: emailValue,
+      message: document.getElementById('message').value,
+    };
+    localStorage.setItem('formDetails', JSON.stringify(object));
+    form.submit();
+  } else {
+    // Email is not in lowercase, display error message
+    errorMessage.textContent = 'Email must be in lowercase.';
+    errorMessage.style.display = 'block';
+  }
+});

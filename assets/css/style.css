@@ -42,6 +42,7 @@ body {
 
 .close > .material-symbols-outlined {
   font-size: 40px;
+  cursor: pointer;
 }
 
 .logo {
@@ -54,7 +55,7 @@ body {
 
 .first-container {
   display: flex;
-  background-image: url(./images/mobile-images/mobile-background.png);
+  background-image: url(/images/mobile-images/mobile-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -302,7 +303,7 @@ button:active {
 
 .contact-page {
   background-color: #6070ff;
-  background-image: url(images/mobile-images/contact-mob-bg.png);
+  background-image: url(/images/mobile-images/contact-mob-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: 149px;
@@ -373,8 +374,6 @@ textarea {
 
 .contact-wrapper {
   background-color: #fff;
-  background-image: url(images/mobile-images/contact-mob-bg.png);
-  background-repeat: no-repeat;
 }
 
 .head-words {
@@ -412,6 +411,14 @@ textarea {
 
 .project-details-modal {
   display: none;
+}
+
+.close-modal {
+  cursor: pointer;
+}
+
+.close-mobile-modal {
+  cursor: pointer;
 }
 
 .mobile-project-modal {
@@ -576,7 +583,7 @@ textarea {
   white-space: nowrap;
 }
 
-#errorMesage {
+#errorMessage {
   color: red;
   display: none;
 }
