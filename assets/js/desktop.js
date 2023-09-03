@@ -7,11 +7,11 @@ const projectDetails = [
       Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer
       took a galley of type and scrambled it 1960s.Lorem Ipsum han printer took a galley of type
       and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    featureImage: './images/dektop-images/nature.png',
+    featureImage: './images/dektop-images/desk-todo-list.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap'],
-    linkToLiveSection: 'https://kwamay.github.io/My-Porforlio/',
-    linkToSource: 'https://github.com/Kwamay/My-Porforlio',
-    name: 'Tonic',
+    linkToLiveSection: 'https://kwamay.github.io/To-do-list/dist/',
+    linkToSource: 'https://github.com/Kwamay/To-do-list',
+    name: 'To do List',
   },
 
   {
@@ -22,11 +22,11 @@ const projectDetails = [
       Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer
       took a galley of type and scrambled it 1960s.Lorem Ipsum han printer took a galley of type
       and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    featureImage: './images/dektop-images/art.png',
+    featureImage: './images/dektop-images/desk-awesome-book.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap'],
-    linkToLiveSection: 'https://kwamay.github.io/My-Porforlio/',
-    linkToSource: 'https://github.com/Kwamay/My-Porforlio',
-    name: 'Multi-Post-Stories',
+    linkToLiveSection: 'https://kwamay.github.io/Awesome-Books/',
+    linkToSource: 'https://github.com/Kwamay/Awesome-Books',
+    name: 'Awesome Books',
   },
 
   {
@@ -37,11 +37,11 @@ const projectDetails = [
       Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer
       took a galley of type and scrambled it 1960s.Lorem Ipsum han printer took a galley of type
       and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    featureImage: './images/dektop-images/display-pic.png',
+    featureImage: './images/dektop-images/desk- convocation.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap'],
-    linkToLiveSection: 'https://kwamay.github.io/My-Porforlio/',
-    linkToSource: 'https://github.com/Kwamay/My-Porforlio',
-    name: 'Facebook 360',
+    linkToLiveSection: 'https://kwamay.github.io/Capstone-Project/',
+    linkToSource: 'https://github.com/Kwamay/Capstone-Project',
+    name: 'Prophetic Convocation',
   },
 
   {

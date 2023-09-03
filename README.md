@@ -129,19 +129,19 @@ To run tests, run the following command:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Kwamay**
 
 - GitHub: [@kwamay](https://github.com/kwamay)
 - Twitter: [@Kwamay3](https://twitter.com/Kwamay3)
 - LinkedIn: [Kwamay Adu](https://linkedin.com/in/кωαмαу-adu-2b396321a)
 
-👤 **Author2**
+👤 **Al Amin-Khan-Shakil**
 
 - GitHub: [Al Amin Khan Shakil](https://github.com/Al-Amin-Khan-Shakil)
 - Twitter: [Al Amin Khan Shakil](https://https://twitter.com/AlAminKhan85004)
 - LinkedIn: [Al Amin Khan Shakil](https://https://www.linkedin.com/in/al-amin-khan-shakil-5a3b29252/)
 
-👤 **Author3**
+👤 **Afimia-fidelis**
 
 - GitHub: [@Izebiafe](https://github.com/Izebiafe)
 - Twitter: [@Izebiafe](https://twitter.com/Afimia_Fidelis)
